@@ -283,8 +283,8 @@ nav ul li :hover{
 
    
     
-    width: 355px;
-    padding-left: 30px;
+    width: 24%;/*355px;*/
+    padding-left: 20px;
     
 
 }
@@ -294,15 +294,15 @@ nav ul li :hover{
 .population #country_div{
 
     
-    width: 600px;
+    width: 35%;/*600px;*/
     height: 250px;
-    padding-left: 40px;
+    padding-left: 0;
     margin-left: 40px;
     transition: 0.5s;
 }
 /* After toggle */
 .population.active #country_div{
-    width: 530px;
+    width: 33%;/*530px;*/
     margin-left: 12px;
     padding-left: 10px;
 }
@@ -312,7 +312,7 @@ nav ul li :hover{
 .population #barChart{
     
    
-    width: 470px;
+    width: 30%;
     height: 350px;
     padding-left: 20px;
     margin-left: 40px;
@@ -324,7 +324,7 @@ nav ul li :hover{
 }
 /* Toggle on */
 .population.active #barChart{
-    width: 420px;
+    width: 28%;/*420px;*/
     margin-left: 12px;
     padding-left: 0;
 }
@@ -341,7 +341,7 @@ nav ul li :hover{
    
     padding-left: 40px;
     height: 350px;
-    width: 920px;
+    width: 55%;/*920px;*/
     transition: 0.5s;
     
      
@@ -349,7 +349,7 @@ nav ul li :hover{
 
 /* Area chart after sidebar is opeaned */
 .population.active #areaChart{
-    width: 840px;
+    width: 50%; /*840px;*/
     padding-left: 0;
 } 
 
@@ -362,15 +362,15 @@ nav ul li :hover{
 .population #curve_chart{
 
     height: 250px;
-    width: 420px;
-    padding-left: 30px;
+    width: 24%;/*420px;*/
+    padding-left: 10px;
     transition: 0.5s;
 
 }
 
 .population.active #curve_chart{
 
-    width: 360px;
+    width: 20%;/*360px;*/
     padding-left: 0;
 
 }
@@ -462,22 +462,27 @@ nav ul li :hover{
     background-size: 1400px;
     background-position: 20px -40px;
  
-    padding: 70px 80px;
+    padding: 50px 50px;
     height: 800px;
 
 }
 
 .text-card{
-    width: 1300px;
+    width: 90%;/*1300px;*/
     height: 700px;
     border-radius: 50px;
     backdrop-filter: blur(6px);
     border: 4px solid #15d4d434;
    /* background-color: #485461;*/
+   transition: 0.5s;
    background-image: linear-gradient(360deg, #494ed93b -40%, #00000072 74%);
     color: rgb(248, 0, 252);
     padding: 50px 80px;
    /* box-shadow: 0 0 10px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF;*/
+}
+
+.population.active .text-card{
+    width: 80%;
 }
 
 .text-card h2{
