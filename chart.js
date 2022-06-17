@@ -1,6 +1,7 @@
 
 
 
+
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
@@ -44,7 +45,7 @@ function drawChart() {
       },
       
       height:250, 
-      width:350,
+      //width:350,
       
       pieSliceBorderColor: '#263238',
       pieSliceText: 'value',
@@ -89,7 +90,7 @@ function drawRegionsMap() {
   var options = {
     colorAxis: {colors: ['#008b8b','#00FFFF']},
     backgroundColor: 'transparent',
-    width: 550,
+    //width: 550,
     height: 250,
     legend: {'position':'left'}
   };
@@ -127,7 +128,7 @@ function drawBarChart() {
   var options = {
     title: 'World Wide Wine Production',
     titleTextStyle: {color: 'white', fontSize:15},
-    width: 450,
+   // width: 450,
     height: 350,
     backgroundColor: 'transparent',
     animation:{
@@ -197,7 +198,7 @@ function drawAreaChart() {
 
           
 
-          width: 880,
+         // width: 880,
           height: 350,
           hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
           vAxis: {minValue: 0},
@@ -247,7 +248,7 @@ function drawLineChart() {
       ]);
 
       var options = {
-        width: 350,
+        //width: 350,
         height: 250,
         backgroundColor: 'transparent',
         title: 'Company Performance',

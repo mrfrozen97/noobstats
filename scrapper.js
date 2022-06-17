@@ -1,9 +1,9 @@
-const puppeteer = require('puppeteer');
+/*const puppeteer = require('puppeteer');
 const Datastore = require('nedb');
 
 const database = new Datastore('population.db');
 
-/*
+
 const fs = require("fs");
 fs.readFile("res/population.json", "utf8", (err, jsonString) => {});
 
@@ -28,5 +28,4 @@ async function scrapperProduct(url){
 
 }
 
-scrapperProduct('https://www.usdebtclock.org/world-debt-clock.html');
-*/
+scrapperProduct('https://www.usdebtclock.org/world-debt-clock.html');*/
